@@ -1,0 +1,128 @@
+#nav{
+    display: flex;
+    /* justify-content: center; */
+align-items: center;
+padding: 12px;
+    height: 60px;
+    background-color: red;
+}
+body{
+    /* background-color: black; */
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#sel{
+    display: none;
+}
+#sel3{
+    display: none;
+}
+#display {
+    position: absolute;
+    z-index: -1;
+
+    height: 100vh;
+  /* min-height: 100px; */
+    /* min-width: 100px; */
+    /* background-color: brown; */
+}
+
+select{
+    padding: 5px;
+    font-size: medium;
+    background-color: rgb(26, 26, 26);
+    color: rgb(255, 237, 237);
+}
+main {
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: aqua; */
+
+}
+
+#maindiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* min-height: 90vh;
+    width: 60vw; */
+    /* background-color: brown; */
+}
+#inputdiv{
+display: flex;
+/* justify-content: spac; */
+align-items: center;
+}
+
+#nav span{
+    margin: 0 9px;
+width: 50px;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+border-radius: 100px;
+}
+
+#nav img{
+}
+
+.img{
+    opacity: 0;
+}
+
+#imgbtn{
+    margin: 23px 11px;
+    position: absolute;
+    right: 0;
+    width: 170px;
+    height: 60px;
+    /* background: var('https: //images-cdn.ubuy.co.in/63400aad33261f1c0c5c1576-yjqdc-beautiful-nude-girls-wall-art-sexy.jpg')no-repeat center center/cover; */
+}
+#imgbtn{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: xx-large;
+    background-image: url('2.jpg');
+    /* Replace 'https://www.example.com/image-url.jpg' with your Google image link */
+    background-size: cover;
+    background-position: center;
+}
+#imgbtn2{
+    width: 100px;
+    height: 40px;
+}
+
+#sdiv{
+    margin: 22px;
+}
+select{
+    /* background: url('1.jpg')no-repeat center center/cover; */
+}
+
+h1{
+    /* letter-spacing: 5px; */
+    text-decoration: wavy;
+}
+#color{
+    border-radius: 33px;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    right: 0;
+    text-align: right;
+    width: 27px;
+}
+
+section{
+ 
+
+}
