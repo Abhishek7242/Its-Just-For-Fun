@@ -80,8 +80,10 @@ color.addEventListener('change', () => {
 })
 
 submit.addEventListener('click', () => {
+
     if (input.value.includes("xvideos")) {
-        let go = `https://www.xvideos88.com/?k=${selectElement.value}+${selectElement2.value}+${selectElement3.value}`
+        
+        let go = `https://www.xvideos.com/?k=${selectElement.value}+${selectElement2.value}+${selectElement3.value}`
         console.log(go)
         window.open(go, '_blank');
     }
