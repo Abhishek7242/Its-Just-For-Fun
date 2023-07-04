@@ -85,6 +85,8 @@ main {
     opacity: 0;
 }
 
+
+
 #imgbtn {
     margin: 23px 11px;
     position: absolute;
@@ -110,6 +112,8 @@ main {
 }
 
 #sdiv {
+   
+        
     margin: 22px;
 }
 

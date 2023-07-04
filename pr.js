@@ -22,15 +22,15 @@ input.addEventListener('change', () => {
         console.log("Input value does not start with 'A'");
     }
 });
-imgbtn.addEventListener('click', () => {
-    isImgVisible = !isImgVisible;
+// imgbtn.addEventListener('click', () => {
+//     isImgVisible = !isImgVisible;
 
-    for (let i = 0; i < img.length; i++) {
-        img[i].style.opacity = isImgVisible ? 1 : 0;
-        img[i].style.width = '1'+ '%'
+//     for (let i = 0; i < img.length; i++) {
+//         img[i].style.opacity = isImgVisible ? 1 : 0;
+//         img[i].style.width = '1'+ '%'
 
-    }
-});
+//     }
+// });
 
 
 selectElement.addEventListener('change', () => {
@@ -74,10 +74,10 @@ selectElement3.addEventListener('change', () => {
     const selectedOption = selectElement.value;
     console.log(selectedOption);
 });
-color.addEventListener('change', () => {
+// color.addEventListener('change', () => {
 
-    document.getElementById('body').style.background = color.value
-})
+//     document.getElementById('body').style.background = color.value
+// })
 
 submit.addEventListener('click', () => {
 
