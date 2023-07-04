@@ -1,41 +1,47 @@
-#nav{
+#nav {
     display: flex;
     /* justify-content: center; */
-align-items: center;
-padding: 12px;
+    align-items: center;
+    padding: 12px;
     height: 60px;
     background-color: red;
 }
-body{
+
+body {
     /* background-color: black; */
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-#sel{
+
+#sel {
     display: none;
 }
-#sel3{
+
+#sel3 {
     display: none;
 }
+
 #display {
     position: absolute;
     z-index: -1;
 
-    height: 100vh;
-  /* min-height: 100px; */
-    /* min-width: 100px; */
+    min-height: 100vh;
+ max-height: 100vh;
+
     /* background-color: brown; */
 }
 
-select{
+select {
     padding: 5px;
     font-size: medium;
     background-color: rgb(26, 26, 26);
     color: rgb(255, 237, 237);
 }
+
 main {
     margin: 5px 0;
     display: flex;
@@ -55,31 +61,31 @@ main {
     width: 60vw; */
     /* background-color: brown; */
 }
-#inputdiv{
-display: flex;
-/* justify-content: spac; */
-align-items: center;
+
+#inputdiv {
+    display: flex;
+    /* justify-content: spac; */
+    align-items: center;
 }
 
-#nav span{
+#nav span {
     margin: 0 9px;
-width: 50px;
-height: 50px;
-display: flex;
-justify-content: center;
-align-items: center;
-overflow: hidden;
-border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 100px;
 }
 
-#nav img{
-}
+#nav img {}
 
-.img{
+.img {
     opacity: 0;
 }
 
-#imgbtn{
+#imgbtn {
     margin: 23px 11px;
     position: absolute;
     right: 0;
@@ -87,7 +93,8 @@ border-radius: 100px;
     height: 60px;
     /* background: var('https: //images-cdn.ubuy.co.in/63400aad33261f1c0c5c1576-yjqdc-beautiful-nude-girls-wall-art-sexy.jpg')no-repeat center center/cover; */
 }
-#imgbtn{
+
+#imgbtn {
     color: rgb(255, 255, 255);
     font-weight: bolder;
     font-size: xx-large;
@@ -96,23 +103,26 @@ border-radius: 100px;
     background-size: cover;
     background-position: center;
 }
-#imgbtn2{
+
+#imgbtn2 {
     width: 100px;
     height: 40px;
 }
 
-#sdiv{
+#sdiv {
     margin: 22px;
 }
-select{
+
+select {
     /* background: url('1.jpg')no-repeat center center/cover; */
 }
 
-h1{
+h1 {
     /* letter-spacing: 5px; */
     text-decoration: wavy;
 }
-#color{
+
+#color {
     border-radius: 33px;
     background-color: white;
     position: absolute;
@@ -120,9 +130,4 @@ h1{
     right: 0;
     text-align: right;
     width: 27px;
-}
-
-section{
- 
-
 }
