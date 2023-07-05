@@ -43,20 +43,19 @@ let linkMappingnude = {
     Anastasia_Knightnude: 'https://k5x5n5g8.ssl.hwcdn.net/content/models_ret/9177-anastasia-knight_400.jpg',
     Megan_Rainnude : '',
     Riley_Reidnude : '',
-    Lena_Paulnude : '',
-    Lexi_Lorenude : '',
+    Lena_Paulnude: 'https://cdn.pichunter.com/369/2/3692525/3692525_2_o.jpg',
+    Lexi_Lorenude: 'https://k5x5n5g8.ssl.hwcdn.net/content/models_ret/8883-lexi-lore_400.jpg',
     Kenzie_Reevesnude: 'https://titis.org/uploads/posts/2022-05/1652567755_1-titis-org-p-kenzie-reeves-nude-erotika-1.jpg',
     Gina_Valentinanude: 'https://cdn.celebritynakeds.com/untitled-pic-1762?interlace=1&quality=85&type=jpeg&url=https%3A%2F%2Fi.redd.it%2Fnvvqwq5tjsna1.jpg&width=400&sign=spVhdJfy7HoS2m0htzz3SqcYiJPCkmTR7Z23g8Nigho',
     Blair_Williamsnude: 'https://www.sexypornpictures.org/gallery/blair-williams-xebqTaxki2/blair-williams.webp',
     Natasha_Nicenude : '',
     Alina_Lopeznude: 'https://vrxdb.b-cdn.net/wp-content/uploads/2019/07/Alina-Lopez-768x1152.jpg',
     Eva_Lovianude: 'https://i.pinimg.com/736x/34/c4/8c/34c48cf7d5e7c288b427100dea668573.jpg',
-    Karlee_Greynude: '',
     Gia_Paigenude: 'https://i.pinimg.com/originals/ae/51/a9/ae51a9783000f9f8b71738e6675d079e.jpg',
     Savannah_Bondnude : '',
-    Little_Capricenude : '',
+    Little_Capricenude: 'https://64.media.tumblr.com/tumblr_mc3qqtwGqv1rfqtewo1_500.jpg',
     Dillion_Harpernude: 'https://atto.scrolller.com/dillion-harper-55lgj1r3zj.jpg',
- 
+    
     enude:'https://img.freepik.com/premium-photo/side-view-young-woman-nude-portrait_23-2149428567.jpg?w=2000',
     Olivia_Novanude: 'https://b6z5d9u4.ssl.hwcdn.net/media/misc/model3842.jpg',
     Adria_raenude: 'https://cdni.pornpics.com/460/1/112/79533350/79533350_015_e728.jpg',
@@ -77,12 +76,13 @@ let linkMappingnude = {
     Piper_perrinude: 'https://preview.redd.it/o1yyf1jwwd491.jpg?width=728&format=pjpg&auto=webp&s=6f4da01d8f4d3d0c87dddcba7312563ef948ad64',
     Emily_willsnude: 'https://tse2.mm.bing.net/th?id=OIP.XGN0v6EQD16qZ6Zytb5QSwHaLG&pid=15.1',
     Valentine_Nappinude: 'https://img-9gag-fun.9cache.com/photo/a6EB0GR_460s.jpg',
+    Karlee_Greynude: 'https://preview.redd.it/k0jotuxr5wo71.jpg?width=640&crop=smart&auto=webp&s=ccf2dbd47ae28766b8619fadc43433d0fa66cd2a',
     Kylie_Quinnnude: 'https://vip.sexhd.pics/gallery/nubiles/kylie-quinn/february-nice-ass-hdgallery/kylie-quinn-13.jpg'
 }
 let linkMapping2 = {
     
     nude :'https://img.myloview.de/bilder/black-t-shirt-mockup-on-young-sexy-girl-isolated-on-background-400-253335678.jpg'
-
-
+    
+    
 
 }
