@@ -1,5 +1,5 @@
 let svalue;
-
+let options = selectElement2.options;
 let isImgVisible = false;
 input.addEventListener('change', () => {
     svalue = selectElement2.value.toString();
@@ -61,10 +61,12 @@ selectElement2.addEventListener('change', () => {
         display.src = linkMapping[svalue];
     }
 
-
-    const selectedOption = selectElement2.value;
+    var selectedOption2 = options[selectElement2.selectedIndex];
+    console.log('Selected option:', selectedOption2.value);
+    const selectedOption = selectElement.value;
     console.log(selectedOption);
 });
+
 selectElement3.addEventListener('change', () => {
     if (input.value.includes("nude") && selectElement.value.includes('Standing') && selectElement2.value.includes('Elsa')&&selectElement3.value.includes('Dil')) {
         console.log("Input value starts with 's'");
@@ -74,6 +76,7 @@ selectElement3.addEventListener('change', () => {
     const selectedOption = selectElement.value;
     console.log(selectedOption);
 });
+
 // color.addEventListener('change', () => {
 
 //     document.getElementById('body').style.background = color.value
@@ -83,7 +86,7 @@ submit.addEventListener('click', () => {
 
     if (input.value.includes("xvideos")) {
         
-        let go = `https://www.xvideos.com/?k=${selectElement.value}+${selectElement2.value}+${selectElement3.value}`
+        let go = `https://www.xvideos.com/?k=${selectElement2.value}+${selectElement.value}+${selectElement3.value}`
         console.log(go)
         window.open(go, '_blank');
     }

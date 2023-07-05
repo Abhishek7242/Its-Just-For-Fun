@@ -4,23 +4,24 @@ let searchnude = `https://img.freepik.com/premium-photo/side-view-young-woman-nu
 // girl : `https://img.freepik.com/free-photo/full-length-happy-brunette-woman-with-arm-hip-holding-copyspace-palm-looking-camera-gray_171337-857.jpg`,
 // standing :'https://img.freepik.com/free-photo/full-length-happy-brunette-woman-with-arm-hip-holding-copyspace-palm-looking-camera-gray_171337-857.jpg',
 let linkMapping = { 
+    Jane_Wilde:'https://bollywoodfever.co.in/wp-content/uploads/2021/10/Mary-Jane-Wilde-Wiki-Bio-Age-Hei-560x840.jpg',
+    Gia_Paige:'https://e1.pxfuel.com/desktop-wallpaper/513/240/desktop-wallpaper-pin-on-pro-gia-paige-thumbnail.jpg',
     Abella_Danger:'https://i.pinimg.com/736x/e6/21/59/e62159b64953047d4e0a1e4d2e8eb0c1.jpg',
     Alina_Lopez:'https://nano.scrolller.com/alina-lopez-3rr54vd19f-540x810.jpg',
-    Riley_Reid:'',
-    Lena_Paul:'',
+    Riley_Reid:'https://i.ebayimg.com/images/g/qKoAAOSwMqpjsNbV/s-l1600.jpg',
+    Lena_Paul:'https://i.pinimg.com/originals/2e/e0/b4/2ee0b44a519bc0c1c85ee9fcc9e7c168.jpg',
     Lexi_Lore:'https://najith.com/wp-content/uploads/2020/04/Lexi-lore-hot-legs.jpg',
     Kenzie_Reeves:'https://m.media-amazon.com/images/M/MV5BNWM0YjU1NmMtMjg0Zi00MzUzLWE5NWYtOTU0OWUwNmM3MTZlXkEyXkFqcGdeQXVyMzM4MjM0Nzg@._V1_.jpg',
     Gina_Valentina:'https://i.ebayimg.com/images/g/FqQAAOSw0Phi-ETS/s-l1600.jpg',
     Blair_Williams:'https://atto.scrolller.com/blair-williams-fjv74o7s2h-540x793.jpg',
-    Natasha_Nice:'',
+    Natasha_Nice:'https://birthdaybuddies.net/uploads/people/md/302170343-121928903935828-954296308248852241-n.webp',
     Eva_Lovia:'https://p1-tt.byteimg.com/origin/tos-cn-i-qvj2lq49k0/9a6f3859c99a4dfda1601b809c1b2952',
-    Karlee_Grey:'',
-    Savannah_Bond:'',
-    Megan_Rain:'',
+    Karlee_Grey:'https://i0.wp.com/celebritate.com/wp-content/uploads/2023/05/Karlee-Grey.jpg?fit=1800%2C2000&ssl=1',
+    Savannah_Bond:'https://preview.redd.it/savannah-bond-v0-lgf5zbif18191.jpg?width=640&crop=smart&auto=webp&s=b12622067da767f6ee7dd5989792994bccf20787',
+    Megan_Rain:'https://e1.pxfuel.com/desktop-wallpaper/888/640/desktop-wallpaper-megan-rain.jpg',
     Anastasia_Knight:'https://i0.wp.com/celebritate.com/wp-content/uploads/2023/06/Anastasia-Knight.jpg?fit=450%2C500&ssl=1',
-    Little_Caprice:'',
+    Little_Caprice:'https://64.media.tumblr.com/0990315951943654651552ecd427b773/tumblr_oa4pafZ0Us1vn43dho1_1280.jpg',
     Dillion_Harper:'https://m.media-amazon.com/images/M/MV5BNjYyOWMxNGItOTNmMC00ZDc4LWE4NDItY2JmOWFjYTAyZjc0XkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg',
-
     e: "https://i.pinimg.com/236x/ee/6b/09/ee6b0904b6a27780fda5f0a8ad7672aa.jpg",
     Elsa_jean :'https://i0.wp.com/globalzonetoday.com/wp-content/uploads/2020/07/Elsa-Jean-1.jpg',
     Leah_gotti :'https://i.pinimg.com/736x/66/07/f6/6607f6d65bf9874142a9c3328972552f.jpg',
@@ -37,7 +38,7 @@ let linkMapping = {
 }
 
 let linkMappingnude = {
-    
+    Jane_Wildenude: 'https://files.sexyandfunny.com/img_orig/2/img5c3d7f6d43eb7.jpg',
     Abella_Dangernude: 'https://the-sex.me/wp-content/uploads/2015/11/jules-jordan-45.jpg',
     Anastasia_Knightnude: 'https://k5x5n5g8.ssl.hwcdn.net/content/models_ret/9177-anastasia-knight_400.jpg',
     Megan_Rainnude : '',
@@ -50,7 +51,8 @@ let linkMappingnude = {
     Natasha_Nicenude : '',
     Alina_Lopeznude: 'https://vrxdb.b-cdn.net/wp-content/uploads/2019/07/Alina-Lopez-768x1152.jpg',
     Eva_Lovianude: 'https://i.pinimg.com/736x/34/c4/8c/34c48cf7d5e7c288b427100dea668573.jpg',
-    Karlee_Greynude : '',
+    Karlee_Greynude: '',
+    Gia_Paigenude: 'https://i.pinimg.com/originals/ae/51/a9/ae51a9783000f9f8b71738e6675d079e.jpg',
     Savannah_Bondnude : '',
     Little_Capricenude : '',
     Dillion_Harpernude: 'https://atto.scrolller.com/dillion-harper-55lgj1r3zj.jpg',
@@ -75,7 +77,7 @@ let linkMappingnude = {
     Piper_perrinude: 'https://preview.redd.it/o1yyf1jwwd491.jpg?width=728&format=pjpg&auto=webp&s=6f4da01d8f4d3d0c87dddcba7312563ef948ad64',
     Emily_willsnude: 'https://tse2.mm.bing.net/th?id=OIP.XGN0v6EQD16qZ6Zytb5QSwHaLG&pid=15.1',
     Valentine_Nappinude: 'https://img-9gag-fun.9cache.com/photo/a6EB0GR_460s.jpg',
-    Kylie_Quinnnude: 'https://cdncontent.xxxwaffle.com/gthumb/2/256/2256297_8a508f1_300x_.jpg'
+    Kylie_Quinnnude: 'https://vip.sexhd.pics/gallery/nubiles/kylie-quinn/february-nice-ass-hdgallery/kylie-quinn-13.jpg'
 }
 let linkMapping2 = {
     

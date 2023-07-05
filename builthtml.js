@@ -24,6 +24,8 @@ let option = [
     { Name: 'Elsa jean', Value:'Elsa_jean'  },
     { Name: 'Eva Lovia', Value:'Eva_Lovia'  },
     { Name: 'Gina Valentina', Value:'Gina_Valentina'  },
+    { Name: 'Gia Paige', Value:'Gia_Paige'  },
+    { Name: 'Jane Wilde', Value:'Jane_Wilde'  },
     { Name: 'Kylie Quinn', Value:'Kylie_Quinn'  },
     { Name: 'Kenzie Reeves', Value:'Kenzie_Reeves'  },
     { Name: 'Karlee Grey', Value:'Karlee_Grey'  },
@@ -46,7 +48,7 @@ let option = [
 let i
 for (i = 0; i < option.length; i++){
     let opt = document.createElement('option')
-    opt.value=option[i].Value
+    opt.value = option[i].Value
     opt.innerText= option[i].Name
     selectElement2.appendChild(opt)
 }

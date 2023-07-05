@@ -111,12 +111,18 @@ main {
     height: 40px;
 }
 
+
+
 #sdiv {
    
         
     margin: 22px;
 }
-
+#selectbox{
+        display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+}
 select {
     /* background: url('1.jpg')no-repeat center center/cover; */
 }
