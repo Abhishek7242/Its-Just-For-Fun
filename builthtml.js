@@ -2,11 +2,14 @@ let input = document.getElementById('input')
 let submit = document.getElementById('submit')
 let color = document.getElementById('color')
 let img = document.getElementsByClassName('img')
+let sdiv = document.getElementById('sdiv')
 let imgbtn = document.getElementById('imgbtn')
 let imgbtn2 = document.getElementById('imgbtn2')
 let selectElement = document.getElementById('sel');
 let selectElement2 = document.getElementById('sele');
 let selectElement3 = document.getElementById('sel3');
+let nav = document.getElementById('nav');
+let main = document.getElementById('main');
 let selec3 = document.getElementById('select3');
 let select2 = document.getElementById('select2');
 let display = document.getElementById('display');
@@ -75,3 +78,4 @@ for (i = 0; i < option2.length; i++) {
     opt.value = option2[i].Value
     selectElement.appendChild(opt)
 }
+

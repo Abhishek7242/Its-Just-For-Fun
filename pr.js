@@ -82,6 +82,19 @@ selectElement3.addEventListener('change', () => {
 //     document.getElementById('body').style.background = color.value
 // })
 
+// 
+main.addEventListener('mouseover', () => {
+    // submit.style.borderLeft = '0'
+    input.style.display = 'none'
+    submit.classList.remove('addradius')
+})
+
+
+submit.addEventListener('mouseover', () => {
+    // submit.style.borderLeft='0'
+    input.style.display = 'inline'
+    submit.classList.add('addradius')
+})
 submit.addEventListener('click', () => {
 
     if (input.value.includes("xvideos")) {

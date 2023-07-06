@@ -111,11 +111,37 @@ main {
     height: 40px;
 }
 
+#submit{
+    /* border: 2px solid; */
+    /* border-left: 0; */
+/* padding: 4px 10px; */
+background:none;
+position: absolute;
+right: 3px;
+border: none;
+/* color: white; */
+border-radius: 5px;
 
-
+}
+.addradius{
+border: none;
+}
+input{
+    display: none;
+    padding: 1px 5px;
+    outline: none;
+    border: 2px solid;
+    /* border-right: 0; */
+    border-radius: 5px;
+    transition: display 1s ease-in-out;
+}
 #sdiv {
-   
-        
+
+        position: absolute;
+        right: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     margin: 22px;
 }
 #selectbox{

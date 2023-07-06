@@ -13,9 +13,22 @@ main{
 #sdiv {
     position: absolute;
     top: 49px;
-
-
+    display: flex;
+justify-content: center;
+width: 80%;
 }
 select{
     font-size: xx-small;
+}
+
+input{
+    display: inline;
+    font-size: small;
+}
+
+#submit{
+    border-left: 0;
+    margin: 0 6px;
+    font-size: 0.6rem;
+    line-height: 0.9;
 }
