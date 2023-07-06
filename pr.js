@@ -83,17 +83,29 @@ selectElement3.addEventListener('change', () => {
 // })
 
 // 
+function isMobileDevice() {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
+// Usage
+
+
 main.addEventListener('mouseover', () => {
     // submit.style.borderLeft = '0'
-    input.style.display = 'none'
-    submit.classList.remove('addradius')
+    if (isMobileDevice()) {
+        input.style.display = 'inline'
+
+        console.log("The website is being opened on a mobile device.");
+    } else {
+        console.log("The website is not being opened on a mobile device.");
+        input.style.display = 'none'
+    }
+    // submit.classList.remove('addradius')
 })
-
-
 submit.addEventListener('mouseover', () => {
     // submit.style.borderLeft='0'
     input.style.display = 'inline'
-    submit.classList.add('addradius')
+    // submit.classList.add('addradius')
 })
 submit.addEventListener('click', () => {
 
