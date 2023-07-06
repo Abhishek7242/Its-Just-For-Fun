@@ -11,7 +11,7 @@ main{
     margin-top: 42px;
 }
 #sdiv {
-    position: absolute;
+ height: 30px;
     top: 49px;
     display: flex;
 justify-content: center;
