@@ -40,6 +40,10 @@ selectElement.addEventListener('change', () => {
         display.src = linkMappingnude[selectElement2.value+ 'nude'+selectElement.value]
         console.log(selectElement2.value + 'nude' + selectElement.value)
     }
+    else if (selectElement.includes($)) {
+        display.src = linkMapping[selectElement2.value];
+
+    }
     else {
         display.src = linkMapping[svalue];
     }
@@ -52,9 +56,18 @@ selectElement2.addEventListener('change', () => {
   
 
     if (input.value.includes("nude")) {
-        console.log("Input value starts with 's'");
-        display.src = "https://img.freepik.com/premium-photo/side-view-young-woman-nude-portrait_23-2149428567.jpg?w=2000" 
-        display.src = linkMappingnude[svalue+'nude']
+        if (selectElement.value.includes('$')) {
+            
+            console.log("Input value starts with 's'");
+            display.src = "https://img.freepik.com/premium-photo/side-view-young-woman-nude-portrait_23-2149428567.jpg?w=2000" 
+            display.src = linkMappingnude[svalue+'nude']
+        }
+        else {
+
+            console.log("Input value starts with 's'");
+            display.src = "https://img.freepik.com/premium-photo/side-view-young-woman-nude-portrait_23-2149428567.jpg?w=2000"
+            display.src = linkMappingnude[svalue + 'nude'+selectElement.value]
+        }
 
     }
     else {
@@ -112,6 +125,13 @@ submit.addEventListener('click', () => {
     if (input.value.includes("xvideos")) {
         
         let go = `https://www.xvideos.com/?k=${selectElement2.value}+${selectElement.value}+${selectElement3.value}`
+        console.log(go)
+        window.open(go, '_blank');
+    }
+
+    if (input.value.includes("hqponer")) {
+        
+        let go = `https://m.hqporner.com/?q=${selectElement2.value}+${selectElement.value}+${selectElement3.value}`
         console.log(go)
         window.open(go, '_blank');
     }

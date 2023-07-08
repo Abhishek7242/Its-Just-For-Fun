@@ -15,20 +15,23 @@ let select2 = document.getElementById('select2');
 let display = document.getElementById('display');
 
 let option = [
-    { Name: 'Choose a Girl Name', Value:'e'  },
+    { Name: 'Choose a Girl Name', Value:'$'  },
     { Name: 'Adria rae', Value:'Adria_rae'  },
     { Name: 'Alina Lopez', Value:'Alina_Lopez'  },
     { Name: 'Anastasia Knight', Value:'Anastasia_Knight'  },
     { Name: 'Abella Danger', Value:'Abella_Danger'  },
     { Name: 'Blair Williams', Value:'Blair_Williams'  },
+    { Name: 'Coco Lovelock', Value:'Coco_Lovelock'  },
     { Name: 'Dani daniel', Value:'Dani_daniel'  },
     { Name: 'Dillion Harper', Value:'Dillion_Harper'  },
     { Name: 'Emily wills', Value:'Emily_wills'  },
     { Name: 'Elsa jean', Value:'Elsa_jean'  },
+    { Name: 'Eliza Ibarra', Value:'Eliza_Ibarra'  },
     { Name: 'Eva Lovia', Value:'Eva_Lovia'  },
     { Name: 'Gina Valentina', Value:'Gina_Valentina'  },
     { Name: 'Gia Paige', Value:'Gia_Paige'  },
     { Name: 'Jane Wilde', Value:'Jane_Wilde'  },
+    { Name: 'Jaye Summers', Value:'Jaye_Summers'  },
     { Name: 'Kylie Quinn', Value:'Kylie_Quinn'  },
     { Name: 'Kenzie Reeves', Value:'Kenzie_Reeves'  },
     { Name: 'Karlee Grey', Value:'Karlee_Grey'  },
@@ -57,18 +60,26 @@ for (i = 0; i < option.length; i++){
 }
 
 let option2 = [
-             { Value:"e",Name:'Choose an Action '},
-      { Value:"Standing girl",Name:'Standing girl '},
-      { Value:"Pussy",Name:'Pussy'},
+             { Value:"$",Name:'Choose an Action '},
+             { Value:"Ass",Name:'Ass'},
+             { Value:"Anal",Name:'Anal'},
+    { Value:"Full_Body",Name:'Full Body'},
+    { Value:"Face Jizz",Name:'Face Jizz'},
+      { Value:"Boobs",Name:'Boobs'},
       { Value:"Big hole",Name:'Big Hole'},
+    { Value:"Cum_In_Mouth",Name:'Cum In Mouth'},
+    { Value:"Cum_In_Pussy",Name:'Cum In Pussy'},
+    { Value:"Finger_In_Pussy",Name:'Finger In Pussy'},
+    { Value:"Gangbang",Name:'Gangbang'},
+      { Value:"Lesbian",Name:'Lesbian'},
+      { Value:"Masterbation",Name:'Masterbation'},
+      { Value:"Open_Pussy",Name:'Open Pussy'},
+      { Value:"Pussy",Name:'Pussy'},
       { Value:"Squirt",Name:'Squirt'},
-    { Value:"Masterbation",Name:'Masterbation'},
-      { Value:"Cum",Name:'Cum'},
-      { Value:"Anal",Name:'Anal'},
-      { Value:"Ass",Name:'Ass'},
       {value:"Sucking Dick",Name:'Sucking Dick'},
-      { Value:"Face Jizz",Name:'Face Jizz'},
-      { Value:"Shemale",Name:'Shemale'}
+      {value:"Sucking_Pussy",Name:'Sucking Pussy'},
+      { Value:"Shemale",Name:'Shemale'},
+      { Value:"Threesome",Name:'Threesome'}
 
 ]
 
